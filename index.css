@@ -1,0 +1,56 @@
+#Profile{
+	height:35vh;
+	
+}
+#Information{
+	display:none;
+}
+#Cover{
+	height:35vh;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	overflow:hidden;
+	 border: 0.3vw solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+	
+}
+#Banner{
+	background:#3b5998;
+	color:White;
+}
+.rowstyle{
+	padding:0.6em;
+	border-bottom:0.5px solid grey;
+}
+.rowstyle:nth-child(5){
+	border-bottom:none;
+}
+.userDetails{
+	font-size:25px;
+	border:0.5px grey solid;
+	border-radius:15px;
+	margin-bottom:2em
+}
+@media screen and (max-width:480px){
+	
+	.userDetails{
+	font-size:15px;
+	}
+	.rowstyle{
+	padding:0.5em;	
+}
+
+}
+.profilepic {
+    border: 0.5vw solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+}
+	
+	
+	
+	
+	
+	
+	

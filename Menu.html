@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Facebook Feed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+<style>
+#feed{
+height:100vh;
+overflow:scroll;
+padding:1em;
+font-size:1.5em;
+color:#3b5998;
+
+
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div style="background:#3b5998;" class="col-12">
+<div class="row">
+<!--   ICON    -->
+<div id="icon" class="col-1"> <img src="favicon.ico"class="image-fluid"/>    </div>
+<div id="search" class="col-9">       
+<!--      Input Box    -->
+<div class="input-group">
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <div class="input-group-append">
+    <span style="background:#3b5998; color:white;" class="input-group-text">Search</span>
+  </div>
+</div>
+</div>
+</div>
+<!-- Navigation Bar -->
+<div class="row">
+<div class="column-12">
+
+<nav style="background:#3b5998;" class="navbar navbar-expand-sm navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+ aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div style="font-size:1.2em;"  class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Profile <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="#">Feed</a>
+      <a class="nav-item nav-link disabled" href="#">Friends</a>
+      <a class="nav-item nav-link disabled" href="#">Chat</a>
+	  <a class="nav-item nav-link disabled" href="#">Menu</a>
+    </div>
+  </div>
+</nav>
+ </div>
+</div>
+</div>
+</div>
+<div class="row">
+<div id="feed" class="col-12">
+</div>
+</div>
+</div>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="Sample.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+crossorigin="anonymous"></script>
+</body>
+</html>

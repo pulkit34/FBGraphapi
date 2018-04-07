@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Facebook Graph API</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+</head>
+<body>
+<section id="Information">
+<div class="container">
+<div class="row">
+<div style="background:#3b5998;" class="col-12">
+<div class="row">
+<!--   ICON    -->
+<div id="icon" class="col-1"> <img src="favicon.ico"class="image-fluid"/>    </div>
+<div id="search" class="col-9">       
+<!--      Input Box    -->
+<div class="input-group">
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <div class="input-group-append">
+    <span style="background:#3b5998; color:white;" class="input-group-text">Search</span>
+  </div>
+</div>
+</div>
+</div>
+<!-- Navigation Bar -->
+<div class="row">
+<div class="column-12">
+
+<nav style="background:#3b5998;" class="navbar navbar-expand-sm navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+ aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div style="font-size:1.2em;"  class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Profile <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="Menu.html">Feed</a>
+      <a class="nav-item nav-link disabled" href="#">Friends</a>
+      <a class="nav-item nav-link disabled" href="#">Chat</a>
+	  <a class="nav-item nav-link disabled" href="#">Menu</a>
+    </div>
+  </div>
+</nav>
+ </div>
+</div>
+</div>
+</div>
+
+ <div  style="margin-top:2em;"class="row">
+ <div  id ="Profile" class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+ <div id="Cover" class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9"></div>
+ </div>
+
+<div style="margin-top:2em;" class="row R3">
+   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  userDetails">
+         <div class="row rowStyle">
+         <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">Name:</div>
+         <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8" id="userName"></div>
+         </div>
+             <div class="row rowStyle">
+             <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">Birthday:</div>
+             <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 " id="userDay"></div>
+             </div>	
+                  <div class="row rowStyle">
+                  <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">Email:</div>
+                  <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 " id="userMail"></div>
+                  </div>    
+			<div class="row rowStyle">
+                          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">Gender:</div>
+                          <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8" id="userGen"></div>
+                          </div>
+		              <div class="row rowStyle">
+                               <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">Quote:</div>
+                               <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8" id="userQuote"></div>
+                               </div>
+
+   </div>
+   </div>
+   </div>
+   </section>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="index.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+crossorigin="anonymous"></script>
+</body>
+</html>
